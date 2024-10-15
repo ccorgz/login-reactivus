@@ -12,6 +12,7 @@ import { IoDocumentTextSharp, IoEye, IoEyeOff } from "react-icons/io5";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { RiNpmjsFill } from "react-icons/ri";
+import { FaGithub } from "react-icons/fa";
 
 export default function Home() {
   interface CredentialsProps {
@@ -100,7 +101,7 @@ export default function Home() {
               href={"https://github.com/ccorgz/reactivus"}
               target="_blank"
             >
-              <Tag icon={<RiNpmjsFill />} color="dark" label={"git"} text />
+              <Tag icon={<FaGithub />} color="dark" label={"git"} text />
             </Link>
           </Container>
         </Container>
